@@ -1,0 +1,16 @@
+Source: glost
+Section: net
+Priority: optional
+Maintainer: Scibian Project <packaging@scibian.org>
+Build-Depends: debhelper (>= 9), libopenmpi-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/cea-hpc/glost
+Vcs-Git: https://github.com/scibian/glost.git
+Vcs-Browser: https://github.com/scibian/glost
+
+Package: glost
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, openmpi-bin
+Description: the Greedy Launcher Of Small Tasks
+ Launch N workers with MPI to execute all the small tasks
+ listed in a text file, one at a time per MPI rank.

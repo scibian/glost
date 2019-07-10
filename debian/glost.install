@@ -1,0 +1,7 @@
+glost_launch usr/bin
+glost_bcast usr/bin
+glost_filter.sh usr/bin
+examples usr/share/doc/glost
+README usr/share/doc/glost
+NEWS usr/share/doc/glost
+LICENSE usr/share/doc/glost
