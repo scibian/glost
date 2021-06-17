@@ -1,3 +1,10 @@
+glost (0.3.1.20160215-0sci9u2) scibian9; urgency=medium
+
+  [ Romaric Kanyamibwa ]
+  * New scibian9 release
+
+ -- Romaric Kanyamibwa <romaric-externe.kanyamibwa@edf.fr>  Thu, 17 Jun 2021 18:46:53 +0200
+
 glost (0.3.1.20160215-0sci9u1) scibian9; urgency=medium
 
   * Initial release
